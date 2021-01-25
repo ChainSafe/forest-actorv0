@@ -1,7 +1,7 @@
 [package]
 name = "forest_actor"
 description = "Actors for the Filecoin protocol"
-version = "0.1.3"
+version = "0.1.4"
 license = "MIT OR Apache-2.0"
 authors = ["ChainSafe Systems <info@chainsafe.io>"]
 edition = "2018"
@@ -43,3 +43,4 @@ libp2p = { version = "0.24", default-features = false }
 
 [features]
 devnet = []
+interopnet = []
